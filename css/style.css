@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+* {
+outline: 1px solid red;
+}
+
+/* SIDEBAR SECTION*/
+
+#sidebar {
+  width: 100px;
+  height: 100%;
+  background-color: red;
+}
+
+#main-page {
+  position: absolute;
+  width:100%;
+}

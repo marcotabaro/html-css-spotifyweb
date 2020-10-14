@@ -39,8 +39,7 @@ main {
 
 .main-menu {
   list-style-type: none;
-  height: 30px;
-  line-height: 30px;
+
 }
 
 .main-menu li {
@@ -54,6 +53,7 @@ main {
 
 .main-menu li:hover {
   border-left: 2px solid #adff2f;
+  text-decoration-color: white;
 }
 
 .icon-menu {
@@ -61,6 +61,25 @@ main {
   color: #282828;
   vertical-align: middle;
   width: 24px;
+}
+
+#playlist {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-left : 20px;
+  color: white;
+  font-weight: bold;
+}
+
+#add-button {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #a3a3a3;
+  color: black;
+  text-align: center;
+  font-size: 1.5rem;
+  vertical-align: middle;
 }
 
 

@@ -180,6 +180,31 @@ main {
   transform: scale(1.1);
 }
 
+/* MAIN PAGE CATEGORIES */
+.categories {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+.categories ul {
+  margin-top: 20px;
+}
+.categories li {
+  display: inline;
+  color: #a3a3a3;
+  font-size: 0.9rem;
+  margin-right: 20px;
+}
+
+/* MAIN PAGE recently played */
+
+.recently-played {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
 /* /////////////////////// */
 /* NOW PLAYING */
 

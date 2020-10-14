@@ -204,22 +204,33 @@ main {
 
 
 .recently-played {
-  display: flex;
+  display: inline-flex;
   flex-flow: row nowrap;
   color: white;
   margin-left: 20px;
 }
 
-.title h1 {
+.title-big {
   margin-left: 20px;
   margin-bottom: 30px;
 }
+
 .cover img {
-  width: 125px;
+  width: 150px;
 }
 
 .album {
   text-align: center;
+}
+
+.title {
+  max-width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.subtitle {
+  max-width: 150px;
 }
 
 /* /////////////////////// */
@@ -252,5 +263,5 @@ main {
 }
 
 .margin-right {
-  margin-right: 20px; 
+  margin-right: 20px;
 }

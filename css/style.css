@@ -149,6 +149,7 @@ main {
   width: calc(100% - 160px);
   height: calc(100% - 60px);
   background-color: #141922;
+  color: white;
   /* overflow: hidden; */
 }
 
@@ -190,6 +191,7 @@ main {
 }
 .categories ul {
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 .categories li {
   display: inline;
@@ -200,9 +202,15 @@ main {
 
 /* MAIN PAGE recently played */
 
+
 .recently-played {
   display: flex;
   flex-flow: row nowrap;
+  color: white;
+}
+
+.cover img {
+  width: 125px;
 }
 
 /* /////////////////////// */

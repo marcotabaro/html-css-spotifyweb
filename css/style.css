@@ -38,7 +38,9 @@ main {
 }
 
 .sidebar-top{
-  height: 60%;
+  height: 70%;
+  overflow-y: hidden;
+  min-height: 300px;
 }
 .main-menu {
   list-style-type: none;
@@ -88,17 +90,15 @@ main {
   vertical-align: middle;
 }
 
-.list-2 {
-  /* overflow-y: auto; */
-}
 /* sidebar bottom side */
 .sidebar-bot {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column;
   width: 160px;
-  height: 40%;
+  height: 30%;
   justify-content: flex-end;
   align-items: center;
+  background-color: inherit;
 }
 
 .sidebar-bot a:first-child img {
@@ -150,6 +150,34 @@ main {
   height: calc(100% - 60px);
   background-color: #141922;
   /* overflow: hidden; */
+}
+
+
+/* BANNER MAIN PAGE FOR MAKE MONEY */
+
+.banner {
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background-color:#080b12;
+}
+
+.banner a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 30px;
+  border-radius: 500px;
+  font-size: 0.7rem
+}
+.banner-btn {
+  margin-right: 10px;
+}
+
+.banner-btn:hover {
+  transform: scale(1.1);
 }
 
 /* /////////////////////// */

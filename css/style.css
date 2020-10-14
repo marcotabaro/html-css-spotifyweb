@@ -26,7 +26,7 @@ main {
 
 /* //////////////////////////// */
 /* SIDEBAR SECTION */
-
+/* Sidebar top side */
 #sidebar {
   color: #a3a3a3;
   position: absolute;
@@ -51,9 +51,12 @@ main {
   color: #a3a3a3;
 }
 
+.main-menu a:hover {
+  color: white;
+}
+
 .main-menu li:hover {
   border-left: 2px solid #adff2f;
-  text-decoration-color: white;
 }
 
 .icon-menu {
@@ -82,6 +85,47 @@ main {
   vertical-align: middle;
 }
 
+.list-2 {
+  /* overflow-y: auto; */
+}
+/* sidebar bottom side */
+.sidebar-bot {
+  display: flex;
+  flex-flow: column wrap;
+  padding-left : 20px;
+  width: 160px;
+  height: 30%;
+  justify-content: flex-end;
+}
+
+.sidebar-bot img {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.sidebar-bot a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.sidebar-bot a:hover {
+  color: white;
+}
+
+.sidebar-bot li:hover {
+  border-left: 2px solid #adff2f;
+}
+
+.sidebar-bot hr {
+  width: 140px;
+  color: #a3a3a3;
+}
+
+.hr-sidebar {
+  margin-right: 10px;
+}
 
 /* ///////////////// */
 /* MAIN PAGE */
@@ -93,7 +137,7 @@ main {
   width: calc(100% - 160px);
   height: calc(100% - 60px);
   background-color: #141922;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* /////////////////////// */
@@ -110,10 +154,10 @@ main {
 
 /* ////////////////////////// */
 /* HELPER */
-.flex-container {
+/* .flex-container {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .padding-all {
   padding: 20px;

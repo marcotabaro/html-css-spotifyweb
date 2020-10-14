@@ -37,17 +37,30 @@ main {
   background-color: black;
 }
 
-.main-button {
-  margin-left : 20px;
+.main-menu {
   list-style-type: none;
   height: 30px;
   line-height: 30px;
+}
+
+.main-menu li {
+  margin-bottom: 10px;
+  padding-left : 20px;
+}
+.main-menu a {
+  text-decoration: none;
+  color: #a3a3a3;
+}
+
+.main-menu li:hover {
+  border-left: 2px solid #adff2f;
 }
 
 .icon-menu {
   margin-right: 5px;
   color: #282828;
   vertical-align: middle;
+  width: 24px;
 }
 
 

@@ -1,3 +1,5 @@
+/* GENERAL */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,24 +10,25 @@ body{
   font-family: "CircularSpotifyTxT-Black";
 }
 @font-face {font-family: "CircularSpotifyTxT-Black";
-  src: url("../fonts/spotify.eot"); /* IE9*/
-  src: url("../fonts/spotify.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("../fonts/spotify.woff2") format("woff2"), /* chrome、firefox */
-  url("../fonts/spotify.woff") format("woff"), /* chrome、firefox */
-  url("../fonts/spotify.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("../fonts/spotify.svg#CircularSpotifyTxT-Black") format("svg"); /* iOS 4.1- */
+  src: url("../fonts/spotify.eot");
+  src: url("../fonts/spotify.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/spotify.woff2") format("woff2"),
+  url("../fonts/spotify.woff") format("woff"),
+  url("../fonts/spotify.ttf") format("truetype"),
+  url("../fonts/spotify.svg#CircularSpotifyTxT-Black") format("svg");
 }
-
-/* * {
-outline: 1px solid red;
-} */
-
 
 main {
   position: relative;
+  width: 100%;
+  height: 100vh;
 }
 
+/* //////////////////////////// */
+/* SIDEBAR SECTION */
+
 #sidebar {
+  color: #a3a3a3;
   position: absolute;
   top:0;
   left:0;
@@ -34,14 +37,35 @@ main {
   background-color: black;
 }
 
+.main-button {
+  margin-left : 20px;
+  list-style-type: none;
+  height: 30px;
+  line-height: 30px;
+}
+
+.icon-menu {
+  margin-right: 5px;
+  color: #282828;
+  vertical-align: middle;
+}
+
+
+/* ///////////////// */
+/* MAIN PAGE */
+
 #main-page {
   position: absolute;
   top:0;
   right:0;
   width: calc(100% - 160px);
   height: calc(100% - 60px);
-  background-color: red;
+  background-color: #141922;
+  overflow: hidden;
 }
+
+/* /////////////////////// */
+/* NOW PLAYING */
 
 #now-playing {
   position: fixed;
@@ -50,4 +74,15 @@ main {
   height: 60px;
   width: 100%;
   background-color: #282828;
+}
+
+/* ////////////////////////// */
+/* HELPER */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.padding-all {
+  padding: 20px;
 }

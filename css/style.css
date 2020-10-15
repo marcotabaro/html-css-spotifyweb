@@ -246,6 +246,34 @@ main {
   background-color: #282828;
 }
 
+.flex-player {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.player-left {
+  width: 30%;
+  height: 60px;
+  min-width: 160px;
+  background-color: blue;
+}
+
+.player-mid {
+  width:40%;
+  height: 60px;
+  min-width: 350px;
+  background-color: red;
+}
+
+.player-right {
+  width: 30%;
+  height: 60px;
+  min-width: 160px;
+  background-color: blue;
+
+}
+
 /* HOVER PROPERTIES */
 .main-menu a:hover {
   color: white;

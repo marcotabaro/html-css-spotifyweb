@@ -197,8 +197,7 @@ main {
   width: 150px;
 }
 .cover{
-  display:flex;
-  justify-content: center;
+  position: relative;
 }
 
 .album {
@@ -267,16 +266,49 @@ main {
 }
 
 .cover:hover .overlay {
-  overflow: visible;
-  background-color: red;
+  opacity: 1;
+}
+
+.cover:hover .overlay-rounded {
+  opacity: 1;
 }
 /* ////////////////////////// */
 /* HELPER */
 
+.fa-play {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .overlay {
-  overflow:hidden;
-  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: rgba(0,0,0, 0.5);
+}
+
+.overlay-rounded{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: rgba(0,0,0, 0.5);
 }
 .flex-container {
   display: inline-flex;

@@ -311,6 +311,10 @@ main {
   justify-content: space-evenly;
   align-items: end;
 }
+
+i.fa-play-circle-o {
+  line-height: 15px;
+}
 /* HOVER PROPERTIES */
 
 .icon-player i:hover {

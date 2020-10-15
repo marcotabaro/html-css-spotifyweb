@@ -294,13 +294,10 @@ main {
 .song-name {
   color: #a3a3a3;
   font-size: .7rem;
-<<<<<<< HEAD
-=======
 }
 
 .flex-icon {
   align-items: flex-end;
->>>>>>> 413285a458171c18656cc7187fa43ea09632aae0
 }
 
 .icon-player i {

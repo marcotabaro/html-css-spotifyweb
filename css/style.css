@@ -56,13 +56,7 @@ main {
   color: #a3a3a3;
 }
 
-.main-menu a:hover {
-  color: white;
-}
 
-.main-menu li:hover {
-  border-left: 2px solid #adff2f;
-}
 
 .icon-menu {
   margin-right: 5px;
@@ -124,13 +118,7 @@ main {
 }
 
 
-.sidebar-bot a:hover {
-  color: white;
-}
 
-.sidebar-bot li:hover {
-  border-left: 2px solid #adff2f;
-}
 
 .sidebar-bot hr {
   width: 140px;
@@ -177,9 +165,7 @@ main {
   margin-right: 10px;
 }
 
-.banner-btn:hover {
-  transform: scale(1.1);
-}
+
 
 /* MAIN PAGE CATEGORIES */
 .categories {
@@ -209,6 +195,10 @@ main {
 
 .cover img {
   width: 150px;
+}
+.cover{
+  display:flex;
+  justify-content: center;
 }
 
 .album {
@@ -257,9 +247,37 @@ main {
   background-color: #282828;
 }
 
+/* HOVER PROPERTIES */
+.main-menu a:hover {
+  color: white;
+}
+
+.main-menu li:hover {
+  border-left: 2px solid #adff2f;
+}
+.sidebar-bot a:hover {
+  color: white;
+}
+
+.sidebar-bot li:hover {
+  border-left: 2px solid #adff2f;
+}
+.banner-btn:hover {
+  transform: scale(1.1);
+}
+
+.cover:hover .overlay {
+  overflow: visible;
+  background-color: red;
+}
 /* ////////////////////////// */
 /* HELPER */
 
+.overlay {
+  overflow:hidden;
+  width: 100%;
+  height: 100%;
+}
 .flex-container {
   display: inline-flex;
   flex-flow: row wrap;

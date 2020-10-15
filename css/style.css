@@ -284,8 +284,21 @@ main {
   justify-content: center;
 }
 
+.flex-column {
+  display:flex;
+  flex-flow:column wrap;
+  margin-left: 5px;
+}
 .artist {
-  display: block;
+  font-size: .9rem;
+}
+.song-name {
+  color: #a3a3a3;
+  font-size: .7rem;
+}
+
+.flex-icon {
+  align-items: flex-end;
 }
 
 /* HOVER PROPERTIES */

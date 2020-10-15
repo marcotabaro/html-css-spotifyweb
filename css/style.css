@@ -39,7 +39,7 @@ main {
 
 .sidebar-top{
   height: 70%;
-  overflow-y: hidden;
+  overflow-y: auto;
   min-height: 300px;
 }
 .main-menu {
@@ -150,7 +150,7 @@ main {
   height: calc(100% - 60px);
   background-color: #141922;
   color: white;
-  /* overflow: hidden; */
+  overflow-y: auto;
 }
 
 
@@ -205,7 +205,7 @@ main {
 
 .recently-played {
   display: inline-flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   color: white;
   margin-left: 20px;
 }
@@ -231,6 +231,21 @@ main {
 
 .subtitle {
   max-width: 150px;
+  color: #a3a3a3;
+  font-size: 0.8rem;
+}
+
+/* MAIN PAGE created for you */
+
+.sub-for-me {
+  margin: 15px 20px;
+  color: #a3a3a3;
+  font-size: 0.8rem;
+}
+
+.title-for-me {
+  margin-left: 20px;
+  margin-top: 30px;
 }
 
 /* /////////////////////// */

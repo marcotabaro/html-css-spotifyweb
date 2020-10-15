@@ -203,7 +203,7 @@ main {
 /* MAIN PAGE recently played */
 
 
-.recently-played {
+.flex-container {
   display: inline-flex;
   flex-flow: row wrap;
   color: white;

@@ -91,7 +91,7 @@ main {
   width: 160px;
   height: 30%;
   justify-content: flex-end;
-  align-items: center;
+  margin-left: 10px;
   background-color: inherit;
 }
 
@@ -268,7 +268,6 @@ main {
   width:40%;
   height: 60px;
   min-width: 350px;
-  background-color: red;
 }
 
 .player-right {
@@ -277,18 +276,47 @@ main {
   min-width: 160px;
 
 }
-
+/* NOW PLAYING player left */
 .album-player {
   width: 40px;
   display: flex;
   justify-content: center;
 }
 
+.flex-column {
+  display:flex;
+  flex-flow:column wrap;
+  margin-left: 5px;
+}
 .artist {
-  display: block;
+  font-size: .9rem;
+}
+.song-name {
+  color: #a3a3a3;
+  font-size: .7rem;
 }
 
+.icon-player i {
+  margin-left: 10px;
+  color: #a3a3a3;
+}
+
+/* NOW PLAYING player mid */
+
+.controls {
+  justify-content: space-evenly;
+  align-items: end;
+}
 /* HOVER PROPERTIES */
+
+.icon-player i:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.icon-player i:active {
+  color: red;
+}
 .main-menu a:hover {
   color: white;
 }
@@ -317,6 +345,11 @@ main {
 /* ////////////////////////// */
 /* HELPER */
 
+.flex-row {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 50%;
+}
 .fa-play {
   color: white;
   position: absolute;

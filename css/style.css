@@ -202,14 +202,6 @@ main {
 
 /* MAIN PAGE recently played */
 
-
-.flex-container {
-  display: inline-flex;
-  flex-flow: row wrap;
-  color: white;
-  margin-left: 20px;
-}
-
 .title-big {
   margin-left: 20px;
   margin-bottom: 30px;
@@ -248,6 +240,11 @@ main {
   margin-top: 30px;
 }
 
+/* MAIN PAGE Popular Artists */
+.rounded img {
+  border-radius: 50%;
+}
+
 /* /////////////////////// */
 /* NOW PLAYING */
 
@@ -262,10 +259,13 @@ main {
 
 /* ////////////////////////// */
 /* HELPER */
-/* .flex-container {
-  display: flex;
-  flex-direction: column;
-} */
+
+.flex-container {
+  display: inline-flex;
+  flex-flow: row wrap;
+  color: white;
+  margin-left: 20px;
+}
 
 .flex-center {
   display: flex;

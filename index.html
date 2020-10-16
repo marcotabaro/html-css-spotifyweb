@@ -58,7 +58,7 @@
 
         <!-- RECENTLY PLAYED heading -->
         <div class="title-big">
-          <h1>Recently Played</h1>
+          <h1 id="recently">Recently Played</h1>
         </div>
 
         <!-- Row RECENTLY PLAYED with album title and subtitle -->
@@ -262,4 +262,12 @@
         </div>
       </section>
     </main>
+    <!-- script inline JS -->
+    <script type="text/javascript">
+      document.getElementById('recently').innerHTML = 'Ascoltato recentemente by Inline';
+    </script>
+
+    <!-- external scrip js -->
+    <!-- <script src="script.js" charset="utf-8"></script> -->
+  </body>
 </html>

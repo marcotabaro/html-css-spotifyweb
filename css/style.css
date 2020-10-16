@@ -309,7 +309,7 @@ main {
 
 .controls {
   justify-content: space-evenly;
-  align-items: end;
+  align-items: flex-end;
 }
 
 i.fa-play-circle-o {

@@ -282,9 +282,14 @@ body button {
 
 .player-right {
   width: 30%;
-  height: 60px;
+  justify-content: flex-end;
   min-width: 160px;
+  align-items: center;
+}
 
+.player-right a {
+  color: white;
+  margin-right: 10px;
 }
 /* NOW PLAYING player left */
 .album-player {
@@ -352,6 +357,12 @@ body button {
   background-color: white;
   text-align: right;
   align-self: center;
+}
+
+/* PLAYER right */
+
+.short {
+  width: 40%;
 }
 
 /* HOVER PROPERTIES */

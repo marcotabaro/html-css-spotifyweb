@@ -325,12 +325,23 @@ body button {
 .progress-bar {
   justify-content: center;
   align-items: center;
+  font-size: .7rem;
 }
 .p-bar {
-  width: 100%;
-  border: 2px solid #a3a3a3;
-  padding: 0 5px;
+  width: 80%;
+  height: 3px;
+  background-color: #a3a3a3;
+  margin: 0 10px;
+  border-radius: 20%;
 }
+
+.p-bar-white {
+  width: 30%;
+  height: 3px;
+  background-color: white;
+  border-radius: 20%;
+}
+
 /* HOVER PROPERTIES */
 
 .fa-play-circle-o:hover {

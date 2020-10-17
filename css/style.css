@@ -336,14 +336,34 @@ body button {
 }
 
 .p-bar-white {
+  display: flex;
+  justify-content: flex-end;
   width: 30%;
   height: 3px;
   background-color: white;
   border-radius: 20%;
 }
 
+.progress-ball {
+  display: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: right;
+  align-self: center;
+}
+
 /* HOVER PROPERTIES */
 
+.p-bar:hover .progress-ball {
+  display: inline;
+}
+
+.p-bar:hover .p-bar-white {
+  background-color: #c8ff00;
+  cursor: pointer;
+}
 .fa-play-circle-o:hover {
   transform: scale(1.1);
 }

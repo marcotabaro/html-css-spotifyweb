@@ -194,6 +194,7 @@ body button {
   color: #a3a3a3;
   font-size: 0.9rem;
   margin-right: 20px;
+  padding-bottom: 10px;
 }
 
 /* MAIN PAGE recently played */
@@ -362,7 +363,7 @@ body button {
 /* PLAYER right */
 
 .short {
-  width: 40%;
+  width: 30%;
 }
 
 /* HOVER PROPERTIES */

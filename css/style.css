@@ -188,13 +188,18 @@ body button {
 .categories ul {
   margin-top: 20px;
   margin-bottom: 50px;
+  height: 60px;
 }
 .categories li {
-  display: inline;
+  display: inline-block;
   color: #a3a3a3;
   font-size: 0.9rem;
   margin-right: 20px;
   padding-bottom: 10px;
+}
+
+.border-fixed{
+  border-bottom: 2px solid #adff2f;
 }
 
 /* MAIN PAGE recently played */
@@ -367,6 +372,9 @@ body button {
 }
 
 /* HOVER PROPERTIES */
+.categories li:hover {
+  border-bottom: 2px solid #adff2f;
+}
 
 .p-bar:hover .progress-ball {
   display: inline;

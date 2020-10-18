@@ -157,7 +157,8 @@ body button {
 }
 
 
-/* BANNER MAIN PAGE FOR MAKE MONEY */
+/*
+ MAIN PAGE FOR MAKE MONEY */
 
 .banner {
   display:flex;
@@ -539,4 +540,5 @@ body button {
     text-align: center;
     margin-bottom: 10px;
   }
+
 }

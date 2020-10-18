@@ -94,6 +94,11 @@ body button {
   vertical-align: middle;
 }
 
+.icon-small {
+  overflow: hidden;
+  display: none;
+}
+
 /* sidebar bottom side */
 .sidebar-bot {
   display: flex;
@@ -483,4 +488,55 @@ body button {
 
 .margin-right {
   margin-right: 20px;
+}
+
+/* MEDIA QUERIES FOR RESPONSIVE LAYOUT */
+@media screen and (max-width: 768px) {
+  #sidebar {
+    width: 80px;
+  }
+  .sidebar-bot {
+    width: 70px;
+  }
+  .sidebar-bot hr {
+    display: none;
+  }
+  #main-page {
+    width: calc(100% - 80px);
+
+  }
+
+  #sidebar .img-logo {
+    display: none;
+  }
+
+  .icon-small {
+    filter: invert(1);
+    height: 40px;
+    overflow: visible;
+    display: block;
+  }
+
+  .list-2 {
+    overflow: hidden;
+    display: none;
+  }
+
+  .main-menu li span {
+    display: none;
+  }
+
+  .sidebar-top img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .sidebar-bot a span {
+    display: none;
+  }
+
+  .sidebar-bot a {
+    text-align: center;
+    margin-bottom: 10px;
+  }
 }
